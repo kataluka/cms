@@ -1,0 +1,28 @@
+{
+  "name": "artemmelnik/flexicms",
+  "authors": [
+    {
+      "name": "Artem Melnik",
+      "email": "artemmelnik989@gmail.com"
+    }
+  ],
+  "require": {
+    "twig/twig": "^2.0",
+    "intervention/image": "^2.4",
+    "symfony/console": "^5.0",
+    "vlucas/phpdotenv": "^4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Flexi\\": "flexi",
+      "Plugin\\": "content/plugins",
+      "Modules\\": "modules",
+      "Console\\": "console"
+    },
+    "files": [
+      "flexi/Functions/functions.php",
+      "flexi/Functions/localization.php",
+      "flexi/Functions/menus.php"
+    ]
+  }
+}
